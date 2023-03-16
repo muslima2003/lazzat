@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
+.container {
+    width: 80%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    background-image: url(../images/chef-icon.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin-top: 50px;
+    padding: 50px;
+
+}
+
+.header_nav {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-top: 45px;
+    padding: 10px;
+}
+
+.h1 {
+    letter-spacing: 5px;
+    font-size: 62px;
+    font-weight: 600;
+}
+
+.h2 {
+    font-size: 19px;
+    margin-top: 20px;
+    width: 360px;
+}
+
+.h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    width: 350px;
+    color: rgb(245, 86, 7);
+}
+
+.p {
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+.p2 {
+    width: 360px;
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+nav a {
+    text-decoration: none;
+    color: gray;
+    margin: 10px 25px;
+    font-size: 20px;
+    transition: all 0.4s linear;
+}
+
+nav a:hover {
+    transform: scale(1.2, 1.2);
+}
+
+button {
+    transition: all 0.4s linear;
+}
+
+button:hover {
+    transform: scale(1.2, 1.2);
+}
+
+main {
+
+    margin-top: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.box {
+    width: calc(100% /3 - 10px);
+    margin: 5px;
+    height: 410px;
+    float: left;
+}
+
+.box img {
+    width: 100%;
+    height: 55%;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 120px;
+    height: 30px;
+    color: white;
+    background-color: rgb(255, 192, 46);
+    border: none;
+    font-size: 17px;
+}
+
+.btn1 {
+    margin-top: 10px;
+    width: 140px;
+    height: 30px;
+    color: white;
+    background-color: rgb(127, 212, 255);
+    border: none;
+    font-size: 17px;
+}
+
+.btn2 {
+    margin-top: 10px;
+    width: 140px;
+    height: 30px;
+    color: white;
+    background-color: rgb(240, 63, 116);
+    border: none;
+    font-size: 17px;
+}
+
+.btn3 {
+    margin-top: 10px;
+    width: 140px;
+    height: 30px;
+    color: white;
+    background-color: rgb(82, 245, 112);
+    border: none;
+    font-size: 17px;
+}
+
+.btn4 {
+
+    background-color: white;
+    border: 4px solid palevioletred;
+    width: 300px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: 400;
+    color: palevioletred;
+}
+
+.sct1 {
+    text-align: center;
+}
+
+footer {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+
+.footer_texts {
+    padding: 150px;
+}
+
+input {
+    width: 520px;
+    height: 65px;
+    padding: 0px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn5 {
+    width: 250px;
+    height: 65px;
+    color: white;
+    background-color: rgb(235, 63, 51);
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.p1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+}
